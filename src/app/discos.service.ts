@@ -8,6 +8,6 @@ export class DiscosService {
 
   constructor(private http:HttpClient) { }
 getDiscos():any{
-  return this.http.get('https://backdiscos-production.up.railway.app/api/listar_discos/');
+  return this.http.get('https://web-production-60cd.up.railway.app/api/listar_discos/');
 }
 }
